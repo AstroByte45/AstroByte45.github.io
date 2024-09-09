@@ -1,0 +1,22 @@
+@keyframes color {
+  0%   { background: #FCFDFE; }
+  20%  { background: #DB0B0B; }
+  40%  { background: #FE9900; }
+  60%  { background: #15A907; }
+  80%  { background: #8C05B3; }
+  100% { background: #0D54CF; }
+
+}
+
+body {
+  background: #33CCCC; /* Fallback */
+  animation: color 9s infinite linear;
+  text-align: center;
+  padding: 2em;
+}
+h1 {
+  text-align: center;
+  font-family: 'Kavoon', sans-serif;
+  font-size: 2.5em;
+  color: white;
+}
